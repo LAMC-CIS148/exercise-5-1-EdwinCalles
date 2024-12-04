@@ -1,33 +1,44 @@
-/* custom property */
+/* Custom property for global color */
 :root {
 	--global-color-1: #800000;
 }
 
-/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Body styles */
 body {
 	font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
-    margin-left: 10px;
+	font-size: 100%;
 	width: 600px;
 	margin: 0 auto; 
-	border: 3px solid #931420;
-	background-color: #fffddf;
-	padding: 20px;
+	border: 3px solid #931420; 
+	background-color: #fffddf; 
+	padding: 20px; 
+}
 
+/* HTML element background color fix */
+html {
+	background-color: white; 
 }
+
 a:focus, a:hover {
-	font-style: italic;
+	font-style: italic; 
 }
-/* the styles for the header */
+
+/* Header styles */
+header {
+	padding: 1.5em 30px 2em; 
+}
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
 }
 header h3 {
 	font-size: 130%;
-	font-style: italic;
-	text-indent: 30px;
+	font-style: italic; 
 }
 header img {
 	float: left;
@@ -35,12 +46,13 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
 }
-/* the styles for the main content */
+
 main {
 	clear: left;
+	padding: 0 30px; 
 }
 main h1 {
-	font-size: 150%;
+	font-size: 150%; 
 	padding: .3em 0;
 }
 main h2 {
@@ -50,28 +62,42 @@ main h2 {
 }
 main h3 {
 	font-size: 105%;
-	padding-bottom: .25em;
+	padding-bottom: .25em; 
 }
 main img {
-	padding-bottom: 1em;
+	padding-bottom: 1em; 
 }
 main p {
-	padding-bottom: .5em;
+	padding-bottom: .5em; 
 }
 main blockquote {
-	padding: 0 2em;
+	padding: 0 2em; 
 	font-style: italic;
+	font-weight: bold;
 }
 main ul {
-	padding: 0 0 .25em 1.25em;
+	padding: 0 0 .25em 1.25em; 
 }
 main li {
-	padding-bottom: .35em;
+	padding-bottom: .35em; 
 }
 
-/* the styles for the footer */
+/* Footer styles */
+footer {
+	padding: 1em 30px;
+}
 footer p {
-	text-align: center;
-	padding: 1em 0;
+	text-align: center; 
+	color: white;
+	background-color: #931420; 
+header {
+	background: linear-gradient(
+		to right,
+		#f6bb73 0%,
+		#f6bb73 30%,
+		#f6bb73 50%,
+		#f6bb73 80%,
+		#f6bb73 100%
+	);
 }
 
