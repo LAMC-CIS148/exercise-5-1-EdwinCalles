@@ -11,6 +11,9 @@ body {
 	width: 600px;
 	margin: 0 auto; 
 	border: 3px solid #931420;
+	background-color: #fffddf;
+	padding: 20px;
+
 }
 a:focus, a:hover {
 	font-style: italic;
