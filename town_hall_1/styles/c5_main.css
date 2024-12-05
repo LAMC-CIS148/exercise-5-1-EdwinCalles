@@ -90,14 +90,17 @@ footer p {
 	text-align: center; 
 	color: white;
 	background-color: #931420; 
-header {
-	background: linear-gradient(
-		to right,
-		#f6bb73 0%,
-		#f6bb73 30%,
-		#f6bb73 50%,
-		#f6bb73 80%,
-		#f6bb73 100%
-		);
-}
+blockquote {
+  font-style: italic;
+ }
 
+header {
+  background: linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+}
