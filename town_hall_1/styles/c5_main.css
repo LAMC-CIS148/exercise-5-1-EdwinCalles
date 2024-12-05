@@ -32,13 +32,13 @@ header {
   padding: 1.5em 30px 2em;
   background: linear-gradient(
     30deg,
-    #f6bb73 0%,
+    #f6bb73 0%, 
     #f6bb73 30%,
-    white 50%,
-    #f6bb73 80%,
+    white 50%, 
+    #f6bb73 80%, 
     #f6bb73 100%
   );
-  color: #333;
+  
 }
 header h2 {
   font-size: 175%;
