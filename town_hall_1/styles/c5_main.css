@@ -30,7 +30,7 @@ a:focus, a:hover {
 /* Header styles */
 header {
   margin-bottom: 20px;
-  padding: 1.5em 0px 2em;
+  padding: 0;
   background: linear-gradient(
     30deg,
     #f6bb73 0%, 
