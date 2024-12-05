@@ -91,12 +91,13 @@ footer p {
 	color: white;
 	background-color: #931420; 
 header {
-	background: linear-gradient:
+	background: linear-gradient(
 		to right,
 		#f6bb73 0%,
 		#f6bb73 30%,
 		#f6bb73 50%,
 		#f6bb73 80%,
-		#f6bb73 100%;
+		#f6bb73 100%
+		);
 }
 
